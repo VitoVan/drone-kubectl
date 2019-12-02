@@ -27,6 +27,13 @@ steps:
 
 ```
 
+Optional settings and defaults:
+
+   - kubernetes_namespace: default
+   - kubernetes_user: default
+
+Will use `--insecure-skip-tls-verify=true` when `kubernetes_cert` is not set.
+
 ## How to get the credentials
 
 First, you need to have a service account with **proper privileges** and **service-account-token**.
