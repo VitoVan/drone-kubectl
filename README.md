@@ -1,3 +1,5 @@
+![Drone Kubectl Icon](https://github.com/VitoVan/drone-kubectl/raw/master/iconfile.png)
+
 # drone-kubectl
 
 This [Drone](https://drone.io/) plugin allows you to use `kubectl` without messing around with the authentication
@@ -49,3 +51,7 @@ kubectl get secret deploy-token-xxxx -o jsonpath='{.data.token}' | base64 --deco
 ### Special thanks
 
 Inspired by [drone-kubernetes](https://github.com/honestbee/drone-kubernetes).
+
+### Credits
+
+- Icon made by [Smashicons](https://www.flaticon.com/authors/smashicons) from www.flaticon.com
